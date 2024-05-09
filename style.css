@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(95, 95, 96, 0);
+    background-color: black;
+    /* background-image: url(./assets/background.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    color: whitesmoke;
+    margin: 2rem 2rem;
+    
+}
+
+/* index page styles */
+.forms
+{
+    margin: 1rem;
+    height: auto;
+    width: 20rem;
+    background-color: white;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: whitesmoke;
+    color: red; 
+}
+#logo
+{
+    position: relative;
+    height: 10rem;
+    width: 10rem;
+    border: white;
+    
+}
+::placeholder{
+    padding: 1px 0px 1px 50px;
+    margin-left: auto;
+    background-color: whitesmoke;
+    font-family: op;
+}
+.user{
+    border-radius: 20px 20px;
+}
+input{
+    height: 25px;
+}
+button{ height: 30px;width: 70px;font-family: OP;border-radius: 20px 20px;}
+button:hover{
+    scale: 1.3;
+    background-color: #ff5757;
+    color: white;
+    border-color: #ff5757;
+    
+}
+
+/* Styling for separate artist Music playlist */
+#pic{
+    height: 250px;
+    width: 150px;
+    border-radius: 15px;
+    margin:5px 5px;
+    border: 3px solid white;
+    float: left;
+    margin: 15px;
+    object-fit: cover;
+}
+#pl-top{
+    background-color: rgb(18, 150, 244);
+    height: 300px;
+    width:95%;
+    margin: 2rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 130px 150px  rgba(18, 150, 244, 0.438);
+    
+}
+#about-pl{
+    padding: 0.6rem;
+}
+.fa-heart{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: -32px;
+}
+.fa-bookmark{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: -32px;
+}
+.pl-table{
+    padding-left: 2rem;
+}
+.pl-row td,audio{
+    padding-top: 5px;
+    margin-left: 30px;
+    
+}
+#head-bar{
+    display: flex;
+    justify-content: end;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+}
+#head-bar{
+        display: flex;
+        justify-content: end;
+}
+#head-bar a{
+        margin-top: 25px;
+        padding: 6px;
+}
+#logo1{
+    height: 100px;
+    width: 100px;
+    border: none;
+    float: left;
+}
+video{
+    width: 100%;
+    height: max-content;
+    border-radius: 11%;
+}
+#about-movie{
+    top: 10px;
+    margin-left: 5rem;
+    margin-top: 18rem;
+    position: absolute;
+}
